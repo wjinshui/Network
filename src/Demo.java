@@ -3,8 +3,8 @@ public class Demo
 {
 	public static void main(String[] args)
 	{
-		String name = "法外狂徒张三";
+		String 姓名 = null ;
 		double score = 59.5;
-		System.out.println(name + score);
+		System.out.println(姓名 + score );
 	}
 }
