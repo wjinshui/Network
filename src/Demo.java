@@ -5,6 +5,6 @@ public class Demo
 	{
 		String ĞÕÃû = null ;
 		double score = 59.5;
-		System.out.println(ĞÕÃû + score );
+		System.out.println( score + ĞÕÃû);
 	}
 }
