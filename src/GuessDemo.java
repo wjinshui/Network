@@ -22,12 +22,10 @@ public class GuessDemo
 		default:
 			maxTry = 7;
 		}
-
 		int num_count = 4;
 		int[] answers = new int[num_count];
 		boolean[] flags = new boolean[10];
 		Random random = new Random();
-
 		for (int i = 0; i < answers.length; i++)
 		{
 			while (true)
