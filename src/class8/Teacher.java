@@ -41,6 +41,7 @@ public class Teacher
 	}
 	public void setAge(int age)
 	{
+		
 		this.age = age;
 	}
 	public String getName()
@@ -53,7 +54,7 @@ public class Teacher
 	}
 	public String getDegree()
 	{
-		return degree;
+		return this.degree;
 	}
 	public void setDegree(String degree)
 	{

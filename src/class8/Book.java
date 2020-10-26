@@ -5,11 +5,14 @@ public class Book
 	private int pageNum;
 	private String title;
 
+
+	
+	
 	public Book(int pageNum, String title)
 	{
-		super();
+	
+		this.pageNum = pageNum;
 		this.title = title;
-		setPageNum(pageNum);
 	}
 
 	void setTitle(String m_title)
