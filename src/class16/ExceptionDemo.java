@@ -1,27 +1,43 @@
 package class16;
 
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
 public class ExceptionDemo
 {
 
 	public static void main(String[] args)
 	{
-		int a = 10, b = 0, c;
+
+		test2();
+		System.out.println("*************************");
+
+	}
+
+	static void test2() 
+	{
 		
-	    //这里的除数为0，将会产生异常
 		try
 		{
-			c = a / b;
-			System.out.println("**********************");
-		} catch (Exception e)
+			test();
+		} catch (WeightException e)
 		{
-			System.out.println("出现异常了。。。");
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
-		
-		System.out.println("我在这里");
-	    
-	    
+	}
 
+	private static void test() throws WeightException
+	{
+		Scanner scanner = new Scanner(System.in);
+		double weight;
+		System.out.println("请输入您的体重");
+		weight = scanner.nextDouble();
 
+		if (weight > 110)
+			throw new WeightException();
+
+		System.out.println("您的体重是 " + weight);
 	}
 
 }

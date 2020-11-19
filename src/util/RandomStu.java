@@ -28,7 +28,7 @@ public class RandomStu
 	{
 		RandomStu randomStud = new RandomStu();
 		randomStud.initial();
-		randomStud.pickPoorGuys(3);
+		randomStud.pickPoorGuys(4);
 	}
 
 

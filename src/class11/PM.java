@@ -6,7 +6,8 @@ public class PM extends Employee
 	private double  bonus;
 	
 	public PM()
-	{		
+	{	
+
 		super("0001", "zhangsan");	
 		
 	}
